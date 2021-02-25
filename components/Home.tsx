@@ -17,7 +17,7 @@ export function Home({ page, talks }: PageProps) {
   return (
     <TalksContext.Provider value={talks}>
       <Head>
-        <title>{page?.title} | UniformConf</title>
+        <title>{page?.title} | Macy's</title>
       </Head>
       {page?.components &&
         page.components.map((component, index) =>
