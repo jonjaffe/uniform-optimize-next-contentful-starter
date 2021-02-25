@@ -10,14 +10,14 @@ const NavMenu = () => (
     <li>
       <Link href="/[[...slug]]" as="/developers">
         <a className="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4">
-          For Developers
+          Returning customers
         </a>
       </Link>
     </li>
     <li>
       <Link href="/[[...slug]]" as="/marketers">
         <a className="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4">
-          For Marketers
+          New to Macy's
         </a>
       </Link>
     </li>
